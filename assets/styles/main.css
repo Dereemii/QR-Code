@@ -3,4 +3,57 @@ h1 {
   color: #2C7DFA;
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: #FFFFFF;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+  font-family: "Outfit", sans-serif;
+  padding: 16px;
+}
+
+.card__image {
+  border-radius: 20px;
+}
+
+.card__title {
+  color: #1F314F;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  padding-inline: 16px;
+  margin-block: 18px 6px;
+}
+
+.card__paragraph {
+  color: #7D889E;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1875px;
+  padding-inline: 16px;
+}
+
+.container {
+  background-color: #D5E1EF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 /*# sourceMappingURL=main.css.map */
